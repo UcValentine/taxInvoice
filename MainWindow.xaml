@@ -1,0 +1,232 @@
+﻿<Window x:Class="TandTCompany.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Designed by Onah Valentine" Height="500" Width="1010">
+    <Grid Background="#FF0C35C1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="255*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="34*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <Menu Grid.Column = "0" Grid.Row = "5" Grid.ColumnSpan = "2" Margin = "2">
+            <MenuItem Header = "Notes"/>
+            <MenuItem Header = "Contacts" />
+            <MenuItem Header = "Opportunity" />
+            <MenuItem Header = "Tracks" />
+            <MenuItem Header = "Activities" />
+            <MenuItem Header = "Service" />
+            <MenuItem Header = "Projects"/>
+            <MenuItem Header = "Agreements" />
+            <MenuItem Header="Documents"/>
+            <MenuItem Header="Profile"/>
+            <MenuItem Header="Surveys"/>
+            <MenuItem Header="Address"/>
+            <MenuItem Header="Settings"/>
+            <MenuItem Header="Delivery Note"/>
+            <MenuItem Header="Help"/>
+            <MenuItem Header="_Imprint"/>
+        </Menu>
+
+        <ToolBar Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="2" Background="#FFE5E8EC">
+            <ToggleButton Width="32" Height="32" Margin="2">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="home.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <ToggleButton Width="32" Height="32" Margin="6" >
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="files.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <ToggleButton Width="32" Height="32" Margin="6">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="save.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <ToggleButton Width="32" Height="32" Margin="6">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="add.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <Separator/>
+            <ToggleButton Width="32" Height="32" Margin="6">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="cancel.jpg"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <ToggleButton Width="32" Height="32" Margin="6">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="download.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <ToggleButton Width="32" Height="32" Margin="6">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="print.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <Separator/>
+            <ToggleButton Width="32" Height="32" Margin="6">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="clockpng.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <ToggleButton Width="32" Height="32" Margin="6">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="arow.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <ToggleButton Width="32" Height="32" Margin="9">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="search.png"/>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <Separator/>
+
+        </ToolBar>
+        <Label Content="T and T Comunications, inc." HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="27" Width="438" Background="{x:Null}" FontFamily="Times New Roman" Foreground="White" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Company search > Company > Contact" HorizontalAlignment="Left" Margin="10,-2,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Height="26" Width="254"/>
+        <Label Content="* Last Update: 15/01/2019 10:15am By John Smith | ip adress http://1.160.10.240 East Poland" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Top" Width="977" Grid.ColumnSpan="2" Height="29" Background="#FFFCFCFC"/>
+
+        <StatusBar Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" >
+            <StatusBarItem Margin="190,0,0,0">
+                <TextBlock><Run Text="Copyright © 2019 T and T Comunications, inc. All rights reserved. Designed by Onah Valentine"/></TextBlock>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock><Run Text="John Smith is Online"/></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+
+        <Grid HorizontalAlignment="Left" Height="235" Margin="10,10,0,0" Grid.Row="4" Grid.Column="0" VerticalAlignment="Top" Width="476" Background="#FFE5E8EC">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="97*"/>
+                <ColumnDefinition Width="117*"/>
+                <ColumnDefinition Width="122*"/>
+                <ColumnDefinition Width="141*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="Company:" />
+            <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="T and T Comunication, Inc"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Content="Type:" />
+            <ComboBox Grid.Row="1" Grid.Column="1" Margin="0,3,0,5">
+                <ComboBoxItem Content="PSA PASSPORT" IsSelected="True"/>
+                <ComboBoxItem Content="PSA ID"/>
+                <ComboBoxItem Content="Driving Lience"/>
+            </ComboBox>
+
+
+            <Label Grid.Row="1" Grid.Column="2" Content="Status:" />
+            <ComboBox Grid.Row="1" Grid.Column="3" Margin="0,3,3,5">
+                <ComboBoxItem Content="Approved" IsSelected="True"/>
+                <ComboBoxItem Content="Not Approved"/>
+                <ComboBoxItem Content="Pending"/>
+            </ComboBox>
+
+            <Label Grid.Row="2" Grid.Column="0" Content="Territory:" />
+            <TextBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="Sales Krakow Territory"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Content="Market:" />
+            <TextBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="IT Service Provider"/>
+
+            <Label Grid.Row="4" Grid.Column="0" Content="Phone No:" />
+            <TextBox Grid.Row="4" Grid.Column="1" Margin="0,5,3,2" TextWrapping="NoWrap" Text="+48 12 345 678"/>
+
+            <Label Grid.Row="4" Grid.Column="2" Content="Fax:" />
+            <TextBox Grid.Row="4" Grid.Column="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="612 345 67"/>
+
+            <Label Grid.Row="5" Grid.Column="0" Content="Primamry Address:" />
+            <TextBox Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="Ul. Zilona 27"/>
+            <TextBox Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,5,3,2"/>
+
+            <Label Grid.Row="7" Grid.Column="0" Content="City, State, Zip:" />
+            <TextBox Grid.Row="7" Grid.Column="1" Margin="0,5,3,2" TextWrapping="NoWrap" Text="Nowy Sacz"/>
+            <TextBox Grid.Row="7" Grid.Column="2" Margin="0,5,3,2" TextWrapping="NoWrap" Text="Krakow"/>
+            <TextBox Grid.Row="7" Grid.Column="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="33-300"/>
+
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="235" Margin="10,10,0,0" Grid.Row="4" Grid.Column="1" VerticalAlignment="Top" Width="476" Background="#FFE5E8EC">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+                <RowDefinition Height="29.4*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="96*"/>
+                <ColumnDefinition Width="168*"/>
+                <ColumnDefinition Width="107*"/>
+                <ColumnDefinition Width="105*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="ID:" />
+            <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="PL-12345"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Content="Web site:" />
+            <TextBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="www.special-talk.com"/>
+
+            <Label Grid.Row="2" Grid.Column="1" Content="Primary Contact:"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Content="full Name:" />
+            <TextBox Grid.Row="3" Grid.Column="1" Margin="0,5,3,2" TextWrapping="NoWrap" Text="John"/>
+            <TextBox Grid.Row="3" Grid.Column="2" Margin="0,5,3,2" Grid.ColumnSpan="3" TextWrapping="NoWrap" Text="Smith"/>
+
+            <Label Grid.Row="4" Grid.Column="0" Content="Title:" />
+            <ComboBox Grid.Row="4" Grid.Column="1" Margin="0,3,3,5">
+                <ComboBoxItem Content="Mr" IsSelected="True"/>
+                <ComboBoxItem Content="Mrs"/>
+                <ComboBoxItem Content="Ms"/>
+                <ComboBoxItem Content="Prof"/>
+            </ComboBox>
+
+            <Label Grid.Row="5" Grid.Column="0" Content="Type:" />
+            <ComboBox Grid.Row="5" Grid.Column="1" Margin="0,3,3,5">
+                <ComboBoxItem Content="Decision" IsSelected="True"/>
+                <ComboBoxItem Content="Non Decision"/>              
+            </ComboBox>
+
+            <Label Grid.Row="5" Grid.Column="2" Content="Relationship:" />
+            <ComboBox Grid.Row="5" Grid.Column="3" Margin="0,3,3,5">
+                <ComboBoxItem Content="Single" IsSelected="True"/>
+                <ComboBoxItem Content="Engaed"/>
+                <ComboBoxItem Content="Married"/>
+                <ComboBoxItem Content="Divorce"/>
+            </ComboBox>
+
+            <Label Grid.Row="6" Grid.Column="0" Content="Phone No:" />
+            <TextBox Grid.Row="6" Grid.Column="1" Margin="0,5,3,2" TextWrapping="NoWrap" Text="+48 12 345 678"/>
+
+            <Label Grid.Row="6" Grid.Column="2" Content="Extension:" />
+            <TextBox Grid.Row="6" Grid.Column="3" Margin="0,5,3,2" TextWrapping="NoWrap" Text="2022"/>
+
+            <Label Grid.Row="7" Grid.Column="0" Content="Email Address:" />
+            <TextBox Grid.Row="7" Grid.Column="1" Margin="0,5,3,2" Grid.ColumnSpan="3" TextWrapping="NoWrap" Text="JohnSmith@yahoo.com"/>
+        </Grid>
+    </Grid>
+</Window>

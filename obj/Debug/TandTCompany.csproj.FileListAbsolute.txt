@@ -1,0 +1,26 @@
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\bin\Debug\TandTCompany.exe.config
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\bin\Debug\TandTCompany.exe
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\bin\Debug\TandTCompany.pdb
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\TandTCompany.csprojResolveAssemblyReference.cache
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\MainWindow.baml
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\App.g.cs
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\TandTCompany_MarkupCompile.cache
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\TandTCompany.g.resources
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\TandTCompany.Properties.Resources.resources
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\TandTCompany.csproj.GenerateResource.Cache
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\TandTCompany.exe
+C:\Users\HP\Pictures\my web\HomeWorks\TandTCompany\obj\Debug\TandTCompany.pdb
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\bin\Debug\TandTCompany.exe.config
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\TandTCompany.exe
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\TandTCompany.pdb
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\bin\Debug\TandTCompany.exe
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\bin\Debug\TandTCompany.pdb
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\TandTCompany.csprojResolveAssemblyReference.cache
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\MainWindow.baml
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\App.g.cs
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\TandTCompany_MarkupCompile.cache
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\TandTCompany.g.resources
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\TandTCompany.Properties.Resources.resources
+C:\Users\HP\Pictures\my web\HomeWorks\User Interface Design\TandTCompany\obj\Debug\TandTCompany.csproj.GenerateResource.Cache
